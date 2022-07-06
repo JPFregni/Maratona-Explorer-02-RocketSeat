@@ -46,6 +46,27 @@
     width: 300px;
     margin: 60px auto;
   }
+
+  .btnContainer{
+    margin-top: 10px;
+  }
+
+  input{
+    background: var(--primary-color);
+    border: none;
+    padding: 5px;
+    border-radius: 6px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bolder;
+
+    transition: background 400ms;
+  }
+
+  input:hover {
+    background: var(--primary-color-dark);
+  }
   
   img {
     width: 100%; 
@@ -74,7 +95,7 @@
   
   ul {
     list-style: none;
-    margin: 48px 0;
+    margin: 20px 0;
   }
   
   ul li a {
